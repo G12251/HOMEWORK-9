@@ -15,6 +15,7 @@ header {
   top: 0;
   background-image: url(../images/Rectangle.png);
   background-color: #08546c;
+  z-index: 99;
 }
 .container {
   display: flex;
@@ -161,8 +162,10 @@ header {
   background: #ffa63a;
 }
 
-.portfolio{
-  background: #E5E5E5;
+.portfolio {
+  background:  #FFFFFF;
+  padding-bottom: 200px;
+
 }
 
 .statistics {
@@ -178,7 +181,6 @@ header {
   margin: 0 auto;
   transform: translateY(-150px);
   text-align: center;
-
 }
 
 .statistics h1 {
@@ -216,4 +218,175 @@ header {
   line-height: 22px;
   align-self: center;
   color: #08546c;
+}
+
+.services {
+  padding-top: 200px;
+
+}
+
+.servicetexts p {
+  font-family: "Schoolbell";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 22px;
+  text-decoration-line: underline;
+  color: #265a6a;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+.servicetexts h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 60px;
+  color: #08546c;
+  padding-bottom: 70px;
+}
+
+.serviceblocks {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+.serviceblocks1 {
+  width: 275px;
+  height: 251px;
+  padding: 30px;
+  background: #ffffff;
+  box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
+}
+
+.svg-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.ellipse {
+  position: relative;
+}
+
+.iconservice {
+  position: absolute;
+  z-index: 1;
+  height: 20.45px;
+  padding-left: 12px;
+}
+
+.serviceblocks1main h2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 29px;
+  color: #0f1221;
+  padding-bottom: 10px;
+  padding-top: 25px;
+}
+
+.serviceblocks1main p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #696969;
+}
+
+.icontv {
+  height: 35px;
+  fill: #08546c;
+  padding-left: 1.9px;
+}
+
+.icontv svg {
+  fill: #08546c;
+}
+
+.features {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 200px;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.features-text h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 45px;
+  line-height: 56px;
+  color: #08546c;
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+.features-text p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 29px;
+  color: #757575;
+  text-align: center;
+}
+
+.faetures-block{
+  display: flex;
+  flex-direction: row;
+  gap: 140px;
+}
+
+
+.f-block{
+  width: 515px;
+height: 588px;
+}
+
+.f-block h1{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 30px;
+line-height: 29px;
+color: #08546C;
+padding-top: 40px;
+padding-bottom: 10px;
+}
+
+.f-block p{
+  width: 426px;
+left: 376px;
+top: 2819px;
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 26px;
+color: #757575;
+padding-bottom: 20px;
+}
+
+.f-block a{
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 26px;
+text-decoration: none;
+color: #08546C;
+cursor: pointer;
+
+}
+
+.f-block a:hover{
+  color: #FFA800;
 }

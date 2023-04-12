@@ -163,9 +163,8 @@ header {
 }
 
 .portfolio {
-  background:  #FFFFFF;
+  background: #ffffff;
   padding-bottom: 200px;
-
 }
 
 .statistics {
@@ -222,7 +221,22 @@ header {
 
 .services {
   padding-top: 200px;
+}
 
+.serviceblocks1main {
+  transition: 0.5s all;
+}
+
+.serviceblocks1main:hover {
+  background: #08546C;
+}
+
+.serviceblocks1main:hover p {
+  color: #b2bbbd;
+}
+
+.serviceblocks1main:hover h2 {
+  color: #ffffff;
 }
 
 .servicetexts p {
@@ -258,7 +272,6 @@ header {
   width: 275px;
   height: 251px;
   padding: 30px;
-  background: #ffffff;
   box-shadow: 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198);
 }
 
@@ -339,54 +352,91 @@ header {
   text-align: center;
 }
 
-.faetures-block{
+.faetures-block {
   display: flex;
   flex-direction: row;
   gap: 140px;
 }
 
-
-.f-block{
+.f-block {
   width: 515px;
-height: 588px;
+  height: 588px;
 }
 
-.f-block h1{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 600;
-font-size: 30px;
-line-height: 29px;
-color: #08546C;
-padding-top: 40px;
-padding-bottom: 10px;
+.f-block h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 29px;
+  color: #08546c;
+  padding-top: 40px;
+  padding-bottom: 10px;
 }
 
-.f-block p{
+.f-block p {
   width: 426px;
-left: 376px;
-top: 2819px;
-font-family: 'Inter';
-font-style: normal;
-font-weight: 400;
-font-size: 16px;
-line-height: 26px;
-color: #757575;
-padding-bottom: 20px;
+  left: 376px;
+  top: 2819px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #757575;
+  padding-bottom: 20px;
 }
 
-.f-block a{
-  font-family: 'Inter';
-font-style: normal;
-font-weight: 500;
-font-size: 18px;
-line-height: 26px;
-text-decoration: none;
-color: #08546C;
-cursor: pointer;
-
+.f-block a {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 26px;
+  text-decoration: none;
+  color: #08546c;
+  cursor: pointer;
 }
 
-.f-block a:hover{
-  color: #FFA800;
+.f-block a:hover {
+  color: #ffa800;
+}
+
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../images/Rectangle.png);
+  background-color: #08546c;
+  height: 730px;
+}
+
+.aboutall {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.abouttext {
+  margin: 0 auto;
+  max-width: 557px;
+}
+
+.textabout {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+  padding-bottom: 33px;
+  padding-top: 33px;
+}
+.name {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #aabfc6;
 }
